@@ -1,0 +1,14 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Local .tfvars files used for testing etc
+local.tfvars
+
+# Local Mac files
+.DS_Store
+
+**/.terragrunt-cache
