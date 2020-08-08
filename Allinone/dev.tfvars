@@ -1,20 +1,20 @@
-resource_group_name = "tftestrg"
+resource_group_name = "tfdevrg"
 
 location = "australiaeast"
 
-sql_server_name = "tftestserver"
+sql_server_name = "tfdevserver"
 
 SQL_Login = "sqladmin"
 
 SQL_Password = "iergHVU%%$#^"
 
-sql_db_name = "tftestdb"
+sql_db_name = "tfdevdb"
 
-sql_db_edition = "Standard"
+sql_db_edition = "Basic"
 
-requested_service_objective_name = "S0"
+requested_service_objective_name = "Basic"
 
 tags = {
     Environment = "Dev"
-    Purpose = "TF Test Presentation"
+    Purpose = "TF dev Presentation"
 }
